@@ -25,7 +25,7 @@ This is a simple URL shortener service built with Go. It uses Redis for storing 
 
 - **POST /shorten**
     - Request: `{"URL": "http://example.com"}`
-    - Response: `{"short_url": "http://localhost:8080/<short-URL-hash>"}`
+    - Response: `{"short_url": "<domain-from-env>/<short-URL-hash>"}`
 
 - **GET /{shortURL}**
     - Redirects to the original URL.
