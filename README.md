@@ -11,7 +11,7 @@ This is a simple URL shortener service built with Go. It uses Redis for storing 
     cd url-shortener
     ```
 
-2. **Install dependencies:**
+2. **Refresh go.mod file:**
     ```sh
     go mod tidy
     ```
